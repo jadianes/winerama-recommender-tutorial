@@ -1,11 +1,17 @@
-<div>
-    <nav>
-        <div>
-            <a href="{% url 'reviews:review_list' %}">Winerama</a>
+{% load bootstrap3 %}
+
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+{% block bootstrap3_content %}
+<div class="container">
+    <nav  class="navbar navbar-default">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="{% url 'reviews:review_list' %}">Winerama</a>
         </div>
-        <div id="navbar">
-            <ul>
-                <li><a href="{% url 'reviews:wine_list' %}">Wine List</a></li>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="{% url 'reviews:wine_list' %}">Wine list</a></li>
                 <li><a href="{% url 'reviews:review_list' %}">Home</a></li>
             </ul>
         </div>
@@ -14,9 +20,10 @@
 
     <h1>{% block title %}(no title){% endblock %}</h1>
 
+    {% bootstrap_messages %}
 
     {% block content %}(no content){% endblock %}
 </div>
 
-
+{% endblock %}
 

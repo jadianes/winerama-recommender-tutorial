@@ -9,6 +9,8 @@ This repository contains the code for such a web application in different stages
 - `stage-0.3`: views and templates are available.  
 - `stage-0.4`: add review form added.  
 - `stage-0.5`: template reuse.  
+- **stage-1**: added Bootstrap 3 for Django.  
+
 
 
 
