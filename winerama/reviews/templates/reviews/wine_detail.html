@@ -1,7 +1,11 @@
+{% extends 'reviews/base.html' %}
+
+{% block title %}
 <h2>{{ wine.name }}</h2>
 <h5>{{ wine.review_set.count }} reviews ({{ wine.average_rating | floatformat }} average rating)</h5>
+{% endblock %}
 
-
+{% block content %}
 <h3>Recent reviews</h3>
 
 {% if wine.review_set.all %}
@@ -28,3 +32,4 @@
     {{ form.as_p }}
     <input type="submit" value="Add" />
 </form>
+{% endblock %}
