@@ -1,0 +1,21 @@
+<h2>{{ wine.name }}</h2>
+<h5>{{ wine.review_set.count }} reviews ({{ wine.average_rating | floatformat }} average rating)</h5>
+
+
+<h3>Recent reviews</h3>
+
+{% if wine.review_set.all %}
+<div>
+    {% for review in wine.review_set.all %}
+    <div>
+        <em>{{ review.comment }}</em>
+        <h6>Rated {{ review.rating }} of 5 by {{ review.user_name }}</h6>
+        <h5><a href="{% url 'reviews:review_detail' review.id %}">
+        Read more
+        </a></h5>
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+<p>No reviews for this wine yet</p>
+{% endif %}

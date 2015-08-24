@@ -1,0 +1,18 @@
+<h2>Wine list</h2>
+
+{% if wine_list %}
+<div>
+    {% for wine in wine_list %}
+    <div>
+        <h4><a href="{% url 'reviews:wine_detail' wine.id %}">
+        {{ wine.name }}
+        </a></h4>
+        <h5>{{ wine.review_set.count }} reviews</h5>
+        <h5>{{ wine.average_rating | floatformat }} average rating</h5>
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+    <p>No wines are available.</p>
+{% endif %}
+
