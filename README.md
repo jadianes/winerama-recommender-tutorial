@@ -9,11 +9,5 @@ This repository contains the code for such a web application in different stages
 - [`stage-0.3`](https://github.com/jadianes/winerama-recommender-tutorial/tree/stage-0.3): views and templates are available.  
 - [`stage-0.4`](https://github.com/jadianes/winerama-recommender-tutorial/tree/stage-0.4): add review form added.  
 - [`stage-0.5`](https://github.com/jadianes/winerama-recommender-tutorial/tree/stage-0.5): template reuse.  
-- [**stage-1**](https://github.com/jadianes/winerama-recommender-tutorial/tree/stage-1): added Bootstrap 3 for Django.  
-
-
-
-
-
-
-
+- [`stage-1`](https://github.com/jadianes/winerama-recommender-tutorial/tree/stage-1): added Bootstrap 3 for Django.  
+- [**stage-1.1**](https://github.com/jadianes/winerama-recommender-tutorial/tree/stage-1.1): `add_review` now requires login. Added login templates and menu sesion links.   

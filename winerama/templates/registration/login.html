@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load bootstrap3 %}
+
+
+{% block title %}
+<h2>Login</h2>
+{% endblock %}
+
+{% block content %}
+<form action="{% url 'auth:login' %}" method="post" class="form">
+    {% csrf_token %}
+    {% bootstrap_form form layout='inline' %}
+    {% buttons %}
+    <button type="submit" class="btn btn-primary">
+      {% bootstrap_icon "user" %} Login
+    </button>
+    {% endbuttons %}
+</form>
+{% endblock %}

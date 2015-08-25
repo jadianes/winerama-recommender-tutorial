@@ -5,7 +5,7 @@
 
 {% block bootstrap3_content %}
 <div class="container">
-    <nav  class="navbar navbar-default">
+    <nav class="navbar navbar-default">
         <div class="navbar-header">
             <a class="navbar-brand" href="{% url 'reviews:review_list' %}">Winerama</a>
         </div>
@@ -13,6 +13,13 @@
             <ul class="nav navbar-nav">
                 <li><a href="{% url 'reviews:wine_list' %}">Wine list</a></li>
                 <li><a href="{% url 'reviews:review_list' %}">Home</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            {% if user.is_authenticated %}
+                <li><a href="{% url 'auth:logout' %}">Logout</a></li>
+                {% else %}
+                <li><a href="{% url 'auth:login' %}">Login</a></li>
+                {% endif %}
             </ul>
         </div>
     </nav>

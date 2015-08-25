@@ -5,6 +5,7 @@ from .models import Review, Wine
 from .forms import ReviewForm
 import datetime
 
+from django.contrib.auth.decorators import login_required
 
 def review_list(request):
     latest_review_list = Review.objects.order_by('-pub_date')[:9]
@@ -28,14 +29,14 @@ def wine_detail(request, wine_id):
     form = ReviewForm()
     return render(request, 'reviews/wine_detail.html', {'wine': wine, 'form': form})
 
-
+@login_required
 def add_review(request, wine_id):
     wine = get_object_or_404(Wine, pk=wine_id)
     form = ReviewForm(request.POST)
     if form.is_valid():
         rating = form.cleaned_data['rating']
         comment = form.cleaned_data['comment']
-        user_name = form.cleaned_data['user_name']
+        user_name = request.user.username
         review = Review()
         review.wine = wine
         review.user_name = user_name
