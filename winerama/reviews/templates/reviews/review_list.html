@@ -12,7 +12,7 @@
         <h4><a href="{% url 'reviews:review_detail' review.id %}">
         {{ review.wine.name }}
         </a></h4>
-        <h6>rated {{ review.rating }} of 5 by {{ review.user_name }}</h6>
+        <h6>rated {{ review.rating }} of 5 by <a href="{% url 'reviews:user_review_list' review.user_name %}" >{{ review.user_name }}</a></h6>
         <p>{{ review.comment }}</p>
     </div>
     {% endfor %}
