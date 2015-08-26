@@ -39,7 +39,11 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'bootstrap3',
     'reviews',
+    'registration',
 )
+
+ACCOUNT_ACTIVATION_DAYS = 7 # One-week activation window
+REGISTRATION_AUTO_LOGIN = True # Automatically log the user in.
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
