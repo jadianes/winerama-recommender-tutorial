@@ -54,6 +54,8 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = 'winerama.urls'
 
+LOGIN_REDIRECT_URL = '/reviews/review/user'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',

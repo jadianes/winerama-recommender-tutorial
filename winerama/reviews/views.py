@@ -50,3 +50,9 @@ def add_review(request, wine_id):
         return HttpResponseRedirect(reverse('reviews:wine_detail', args=(wine.id,)))
     
     return render(request, 'reviews/wine_detail.html', {'wine': wine, 'form': form})
+    
+
+def user_review_list(request):
+    latest_review_list = Review.objects.filter(user_name=request.user.username).order_by('-pub_date')
+    context = {'latest_review_list':latest_review_list}
+    return render(request, 'reviews/user_review_list.html', context)
