@@ -1,5 +1,5 @@
-# A Wine Review Website using Django and Bootstrap
-###### Building Data Products with Python
+# A wine reviews website using Django and Bootstrap  
+###### Building Data Products with Python  
 
 With this tutorial, we start a series of tutorials about how to build data products with Python. As a *leitmotif* we want to build a web-based wine reviews and recommendations website using Python technologies such as Django and Pandas. We have chosen to build a wine reviews and recommendations website, but the concepts and the technology stack can be applied to any user reviews and recommendation product.
 
@@ -13,7 +13,7 @@ In the next tutorial, we will add user management and, once we have users identi
 
 Remember that you can follow the tutorial at any development stage by forking [the repo](https://github.com/jadianes/winerama-recommender-tutorial) into your own GitHub account, and then cloning into your workspace and checking out the appropriate tag. By forking the repo you are free to change it as you like and experiment with it as much as you need. If at any point you feel like having a little bit of help with some step of the tutorial, or with making it your own, we can have a [1:1 Codementor session](https://www.codementor.io/jadianes) about it.  
 
-Usually will have deployed the latest stage of the app running [at Koding](http://jadianes.koding.io:8000/reviews/), including all the related tutorials updates. But let's start with our project from scratch!  
+Usually we will have deployed the latest stage of the app running [at Koding](http://jadianes.koding.io:8000/reviews/), including all the related tutorials updates. But let's start with our project from scratch!  
 
 ## Koding as a development server
 
