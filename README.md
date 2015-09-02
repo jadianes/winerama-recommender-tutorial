@@ -14,3 +14,12 @@ This repository contains the code for such a web application in different stages
 - [`stage-1.2`](https://github.com/jadianes/winerama-recommender-tutorial/tree/stage-1.1): a user reviews page created.  
 - [**stage-2**](https://github.com/jadianes/winerama-recommender-tutorial/tree/stage-2): user management done.  
 - [`stage-2.1`](https://github.com/jadianes/winerama-recommender-tutorial/tree/stage-2.1): Scripts to load CSV available + data loaded.  
+
+## Tutorials  
+
+The following tutorials will guide you through each of the previous Git tags while learning different 
+concepts of data product development with Python.  
+
+#### [A Wine Review Website using Django and Bootstrap](https://github.com/jadianes/winerama-recommender-tutorial/blob/master/tutorials/tutorial_1.md)  
+
+#### [Adding User management](https://github.com/jadianes/winerama-recommender-tutorial/blob/master/tutorials/tutorial_2.md)  
