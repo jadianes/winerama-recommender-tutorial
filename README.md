@@ -14,6 +14,8 @@ This repository contains the code for such a web application in different stages
 - [`stage-1.2`](https://github.com/jadianes/winerama-recommender-tutorial/tree/stage-1.1): a user reviews page created.  
 - [**stage-2**](https://github.com/jadianes/winerama-recommender-tutorial/tree/stage-2): user management done.  
 - [`stage-2.1`](https://github.com/jadianes/winerama-recommender-tutorial/tree/stage-2.1): Scripts to load CSV available + data loaded.  
+- [`stage-2.2`](https://github.com/jadianes/winerama-recommender-tutorial/tree/stage-2.2): An empty wine suggestions view has been added.  
+
 
 ## Tutorials  
 
