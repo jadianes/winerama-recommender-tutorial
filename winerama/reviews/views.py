@@ -4,6 +4,8 @@ from django.core.urlresolvers import reverse
 from django.contrib.auth.models import User
 from .models import Review, Wine, Cluster
 from .forms import ReviewForm
+from .suggestions import update_clusters
+
 import datetime
 
 from django.contrib.auth.decorators import login_required
@@ -45,6 +47,7 @@ def add_review(request, wine_id):
         review.comment = comment
         review.pub_date = datetime.datetime.now()
         review.save()
+        update_clusters()
         # Always return an HttpResponseRedirect after successfully dealing
         # with POST data. This prevents data from being posted twice if a
         # user hits the Back button.
@@ -69,8 +72,13 @@ def user_recommendation_list(request):
     user_reviews_wine_ids = set(map(lambda x: x.wine.id, user_reviews))
 
     # get request user cluster name (just the first one righ now)
-    user_cluster_name = \
-        User.objects.get(username=request.user.username).cluster_set.first().name
+    try:
+        user_cluster_name = \
+            User.objects.get(username=request.user.username).cluster_set.first().name
+    except: # if no cluster assigned for a user, update clusters
+        update_clusters()
+        user_cluster_name = \
+            User.objects.get(username=request.user.username).cluster_set.first().name
     
     # get usernames for other memebers of the cluster
     user_cluster_other_members = \

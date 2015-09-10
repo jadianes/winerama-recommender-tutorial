@@ -4,36 +4,47 @@ id,username,wine_id,rating,comment
 2,jadianes,3,4,This can be great with time.
 3,jadianes,9,2,Drinkable...
 4,jadianes,10,5,A treasure of a wine
-5,john,0,2,Tastes like old wine
-6,john,1,4,Love it... Luxury!
-7,john,3,2,Not a big fan of sweets
-8,john,9,3,Could drink this more often... Love the fruit.
-9,john,10,2,"too strong, sorry"
-10,john,7,4,Powerful and elegant. Masculine.
-11,mari,0,3,It reminds me of Sanlucar :)
-12,mari,1,2,Not a big fan of bubbles
-13,mari,3,5,Love sweets!
-14,mari,4,5,The best white wine I ever had.
-15,yasset,0,4,It is good
-16,yasset,1,2,I don't like champagne
-17,yasset,3,1,I don't like sweet wine
-18,yasset,4,4,Very good wine.
-19,yasset,6,5,So good wine
-20,carlos,0,4,Se sale
-21,carlos,3,4,Viva Malaga
-22,carlos,7,5,Wonderful
-23,teus,0,4,This is very special wine
-24,teus,10,5,Wow!
-25,teus,3,5,"Hey, this is great stuff!"
-26,teus,5,4,This is going to be in my memory for a very long time
-27,lluis,0,4,"Chalk, almonds, rain"
-28,lluis,2,4,"Dry fruit, lead, iron, dry flowers."
-29,lluis,5,5,"Rioja, rioja, rioja"
-30,lluis,8,4,"God!"
-31,pepe,10,5,"Jooe!"
-32,pepe,6,4,"Vega Siclia..."
-33,pepe,0,4,"Esto y unas gambitas!"
-34,pepe,1,2,"No esta mal"
-35,pepe,2,4,"Muy bueno"
-
-
+5,jadianes,8,4,"Impressive, but extremely expensive"
+6,john,0,2,Tastes like old wine
+7,john,1,4,Love it... Luxury!
+8,john,3,2,Not a big fan of sweets
+9,john,9,3,Could drink this more often... Love the fruit.
+10,john,10,2,"too strong, sorry"
+11,john,7,4,Powerful and elegant. Masculine.
+12,mari,0,3,It reminds me of Sanlucar :)
+13,mari,1,2,Not a big fan of bubbles
+14,mari,3,5,Love sweets!
+15,mari,4,5,The best white wine I ever had.
+16,mari,8,3,This is too strong for me
+17,mari,2,4,"I prefer whites, but I wish all reds were like this"
+18,yasset,0,4,It is good
+19,yasset,1,2,I don't like champagne
+20,yasset,3,1,I don't like sweet wine
+21,yasset,4,4,Very good wine.
+22,yasset,6,5,So good wine
+23,yasset,8,5,Awesome
+24,yasset,2,3,"Good, but I prefer the Latour"
+25,carlos,0,4,Se sale
+26,carlos,3,4,Viva Malaga
+27,carlos,7,5,Wonderful
+28,carlos,8,3,Not bad
+29,carlos,2,5,A special one
+30,carlos,1,3,Enjoyable
+31,teus,0,4,This is very special wine
+32,teus,10,5,Wow!
+33,teus,3,5,"Hey, this is great stuff!"
+34,teus,5,4,This is going to be in my memory for a very long time
+35,teus,2,5,Great!
+36,teus,8,5,Awesome
+37,lluis,0,4,"Chalk, almonds, rain"
+38,lluis,2,5,"Dry fruit, lead, iron, dry flowers."
+39,lluis,5,5,"Rioja, rioja, rioja"
+40,lluis,8,4,"God!"
+41,lluis,6,5,"A different Ribera"
+42,lluis,4,5,"Purity in Chablis in a great year"
+43,pepe,10,5,"Jooe!"
+44,pepe,6,4,"Vega Siclia..."
+45,pepe,0,4,"Esto y unas gambitas!"
+46,pepe,1,2,"No esta mal"
+47,pepe,2,4,"Muy bueno"
+47,pepe,8,5,"Impresionante"
