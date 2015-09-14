@@ -1,4 +1,4 @@
-# Part III: providing wine suggestions  
+# Providing wine suggestions  
 
 This is the third part of our tutorial on how to build a web-based wine review and recommendation system using Python technologies such as [Django](https://www.djangoproject.com/), [Pandas](http://pandas.pydata.org/), [SciPy](http://www.scipy.org/), and [Scikit-learn](http://scikit-learn.org/). 
 
