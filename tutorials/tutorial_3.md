@@ -238,6 +238,7 @@ def user_recommendation_list(request):
 
 This requires a bit of explanation. First we create a query set for all the reviews for the current user. We also prefetch wine objects in order to avoid successive queries for each review, since we will need to access these wine objects (more about [`prefetch_related`](https://docs.djangoproject.com/en/1.8/ref/models/querysets/#prefetch-related)). Then we create a set of all the different wine IDs using `map` to apply a lambda expression to each review in the previous result and get the wine ID. And finally, we create a new query set of `Wine` excluding all the previous IDs. The important bit here is how we subfixed the `id` field with `__in` in order to implement the SQL `IN` functionality. More on this [here](https://docs.djangoproject.com/en/1.8/ref/models/querysets/#in). The resulting list is what we pass to our template rendering. Powerful, isn't it?  
 
+This stage of the project corresponds to the tag [stage-2.3](https://github.com/jadianes/winerama-recommender-tutorial/tree/stage-2.3).  
 
 ## Using k-means clustering to provide better recommendations  
 
@@ -250,9 +251,6 @@ There is a second approach that doesn't require any knowledge about wine, but on
 This is what our system will do, and we will use clustering for that. Why? Simple. Instead of trying to compare our user to every other user in the system every time recommendations are needed, we will pre-cluster all the users in the system by its wine reviews scores. By doing so we will have groups of similar users. Then, when a user asks for recommendations, we will look for them just in the cluster this user is clustered in. Since we know all the users in that cluster have a similar taste (they scored similarly the same wines, for good or bad), this greatly reduces the search space.  
 
 Of course there are more sophisticated recommender systems (e.g. collaborative filtering using ALS), but this one is easy to understand in terms of its meaning and makes use of some machine learning techniques we already know about.  
-
-This stage of the project corresponds to the tag [stage-2.3](https://github.com/jadianes/winerama-recommender-tutorial/tree/stage-2.3).  
-
 
 ### Creating a model object to store clustering information  
 
