@@ -1,7 +1,20 @@
 # Winerama  
 ###### a web recommender tutorial using Python, Django, and Pandas.  
 
-This repository contains the code for such a web application in different stages as git tags. You can follow the tutorials described bellow through the following tags and learn the different concepts explained in them.   
+This repository contains the code for wine reviews and recommendations web application, in different stages as git tags. The idea is that you can follow the **tutorials** through the **tags** listed below, and learn the different concepts explained in them.   
+
+## Tutorials  
+
+The following tutorials will guide you through each of the previous Git tags while learning different 
+concepts of data product development with Python.  
+
+#### [A Wine Review Website using Django and Bootstrap](https://github.com/jadianes/winerama-recommender-tutorial/blob/master/tutorials/tutorial_1.md)  
+
+#### [Adding User management](https://github.com/jadianes/winerama-recommender-tutorial/blob/master/tutorials/tutorial_2.md)  
+
+#### [Providing wine recommendations using K-Means](https://github.com/jadianes/winerama-recommender-tutorial/blob/master/tutorials/tutorial_3.md)  
+
+## Tags
 
 - [`stage-0`](https://github.com/jadianes/winerama-recommender-tutorial/tree/stage-0): an empty repo.  
 - [`stage-0.1`](https://github.com/jadianes/winerama-recommender-tutorial/tree/stage-0.1): a Django project with one app called `reviews`. The app defines model entities.  
@@ -19,15 +32,3 @@ This repository contains the code for such a web application in different stages
 - [`stage-2.4`](https://github.com/jadianes/winerama-recommender-tutorial/tree/stage-2.4): Added cluster model object and manually created three clusters.  
 - [`stage-2.5`](https://github.com/jadianes/winerama-recommender-tutorial/tree/stage-2.5): Suggestions view now makes use of cluster information.  
 - [**stage-3**](https://github.com/jadianes/winerama-recommender-tutorial/tree/stage-3): K-means clustering based recommendations provided.  
-
-
-## Tutorials  
-
-The following tutorials will guide you through each of the previous Git tags while learning different 
-concepts of data product development with Python.  
-
-#### [A Wine Review Website using Django and Bootstrap](https://github.com/jadianes/winerama-recommender-tutorial/blob/master/tutorials/tutorial_1.md)  
-
-#### [Adding User management](https://github.com/jadianes/winerama-recommender-tutorial/blob/master/tutorials/tutorial_2.md)  
-
-#### [Providing wine recommendations using K-Means](https://github.com/jadianes/winerama-recommender-tutorial/blob/master/tutorials/tutorial_3.md)  
