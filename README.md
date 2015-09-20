@@ -1,7 +1,7 @@
 # Winerama  
 ###### a web recommender tutorial using Python, Django, and Pandas.  
 
-This repository contains the code for wine reviews and recommendations web application, in different stages as git tags. The idea is that you can follow the **tutorials** through the **tags** listed below, and learn the different concepts explained in them.   
+This repository contains the code for a wine reviews and recommendations web application, in different stages as git tags. The idea is that you can follow the **tutorials** through the **tags** listed below, and learn the different concepts explained in them.   
 
 ## Tutorials  
 
