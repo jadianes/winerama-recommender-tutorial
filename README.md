@@ -1,5 +1,5 @@
 # Winerama  
-###### a web recommender tutorial using Python, Django, and Pandas.  
+###### A web recommender tutorial tutorial using Python technologies such as Django, Pandas, or Scikit-learn, and others such as Bootstrap.
 
 This repository contains the code for a wine reviews and recommendations web application, in different stages as git tags. The idea is that you can follow the **tutorials** through the **tags** listed below, and learn the different concepts explained in them. The tutorials include instructions on how to deploy the web using a [Koding account](https://koding.com/).     
 
