@@ -1,5 +1,3 @@
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jadianes/winerama-recommender-tutorial/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
 # Winerama  
 ###### A web recommender tutorial tutorial using Python technologies such as Django, Pandas, or Scikit-learn, and others such as Bootstrap.
 
