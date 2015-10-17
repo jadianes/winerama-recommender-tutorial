@@ -1,3 +1,5 @@
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jadianes/winerama-recommender-tutorial/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 # Winerama  
 ###### A web recommender tutorial tutorial using Python technologies such as Django, Pandas, or Scikit-learn, and others such as Bootstrap.
 
@@ -32,7 +34,3 @@ concepts of data product development with Python.
 - [`stage-2.4`](https://github.com/jadianes/winerama-recommender-tutorial/tree/stage-2.4): Added cluster model object and manually created three clusters.  
 - [`stage-2.5`](https://github.com/jadianes/winerama-recommender-tutorial/tree/stage-2.5): Suggestions view now makes use of cluster information.  
 - [**stage-3**](https://github.com/jadianes/winerama-recommender-tutorial/tree/stage-3): K-means clustering based recommendations provided.  
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jadianes/winerama-recommender-tutorial/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
