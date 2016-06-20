@@ -2,7 +2,6 @@
 ###### A web recommender tutorial tutorial using Python technologies such as Django, Pandas, or Scikit-learn, and others such as Bootstrap.
 
 [![Join the chat at https://gitter.im/jadianes/winerama-recommender-tutorial](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jadianes/winerama-recommender-tutorial?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EJ54869W5H3KJ)   
 
 This repository contains the code for a wine reviews and recommendations web application, in different stages as git tags. The idea is that you can follow the **tutorials** through the **tags** listed below, and learn the different concepts explained in them. The tutorials include instructions on how to deploy the web using a [Koding account](https://koding.com/).     
 
@@ -64,10 +63,4 @@ The content developed by Jose A. Dianes is distributed under the following licen
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
-
-## Donate  
-
-If you find these tutorials useful then you can help me to keep them updated ;)  
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EJ54869W5H3KJ)  
 
